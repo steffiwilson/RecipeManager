@@ -1,0 +1,8 @@
+// Cool Use Case Diagram
+[Chef]-(Add recipe)
+[Chef]-(Search recipes)
+(Search recipes)<(View single recipe)
+(View single recipe)<(Edit recipe)
+(View single recipe)<(Email recipe)
+(View single recipe)<(Delete recipe)
+[Chef]-(Close program)

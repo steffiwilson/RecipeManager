@@ -1,0 +1,42 @@
+1) change measurement - Anna
+2) fix comment display - Anna
+3) add comments - Anna
+4) drop-downs in search - Anna
+5) function for picture access - Steffi
+6) create activity diagram - DONE
+7) create class diagram - DONE
+8) attempt to grab from allrecipies - Steffi
+9) Write a few things regarding:  - Done for Steffi (see below)
+	- overall experience
+	- things learned working in a team
+	- how we applied the course to the project
+10) investigate adding "alt ingredient" to the gui
+11) project specification document: - DONE
+	intro
+	glossary
+	user requirements definition
+	diagrams: class
+		  use case for add recipe and search for recipe
+		  sequence diagram for email recipe
+12) comment Anna's code - Anna
+13) comment Steffi's code - Steffi
+
+
+-Steffi presentation notes: 
+Learned working in a team:
+	Benefits of function calls ("magic" is good)
+	Better to have documentation earlier (confusion on data types in the database)
+	Good to have a balance of strengths and specialization on the team
+	Don't have to be together to code, as long as you have some sort of a plan of who is doing what and are communicating 
+
+From the class re: project - 
+	+benefits of documentation for getting a good perspective on all the layers of complexity
+	+beneficial to have documentation of the workflows for how the program is used (use case and activity)
+	-need to apply better time management
+		-- used an "agile" methodology (good for but had a long period where we were not making progress
+
+Overall experience:
+	learned to appreciate the benefits of other technologies more
+	learned I've absorbed a lot more about programming than I knew
+	learned there's a lot of cool tools for making your diagrams
+			

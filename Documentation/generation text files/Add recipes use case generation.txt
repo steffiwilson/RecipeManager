@@ -1,0 +1,10 @@
+// Cool Use Case Diagram
+[Chef]-(Add recipe)
+(Add recipe)>(Name recipe)
+(Add recipe)>(Add ingredient)
+(Add recipe)>(Add instructions)
+(Add recipe)<(Categorize recipe)
+(Add recipe)<(Subcategorize recipe)
+(Add recipe)<(Give prep time)
+(Add recipe)<(Rate recipe)
+(Add recipe)<(Add image)

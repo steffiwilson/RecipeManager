@@ -1,0 +1,19 @@
+on https://www.websequencediagrams.com/#
+
+title Email Recipe Sequence
+
+User->RecipeManager client: Clicks "email recipe" button
+RecipeManager client->Database: selectSingleRecipe(recipeId)
+Database-> RecipeManager client: Recipe[]
+RecipeManager client->Database: listInstructions(recipeId)
+Database->RecipeManager client: instructions[][]
+RecipeManager client->Database: listIngredients(recipeId)
+Database->RecipeManager client: ingredients[][]
+RecipeManager client->java.net.URI:URI.create(mailto)
+java.net.URI->RecipeManager client:URI object
+RecipeManager client->java.awt.Desktop:Desktop.create()
+java.awt.Desktop->RecipeManager client:Desktop object
+RecipeManager client->Email client:desktop.mail(URI object)
+User->Email client:Enters email address
+User->Email client:(optional) Enters subject line
+User->Email client:Instructs client to send email

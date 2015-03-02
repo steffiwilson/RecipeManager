@@ -1,0 +1,3010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   font-family="Arial"
+   font-size="13"
+   width="1485"
+   height="971"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ActivityDiagram.svg">
+  <metadata
+     id="metadata1219">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1217">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4198"
+       spreadMethod="pad"
+       x1="69.877864"
+       y1="307.81207"
+       x2="69.877864"
+       y2="373.34069"
+       gradientTransform="scale(1.7244374,0.57989929)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greyGradient"
+       id="linearGradient4200"
+       spreadMethod="pad"
+       x1="-0.5"
+       y1="-0.5"
+       x2="-0.5"
+       y2="18.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4202"
+       spreadMethod="pad"
+       x1="134.9164"
+       y1="981.46517"
+       x2="134.9164"
+       y2="1045.8235"
+       gradientTransform="scale(1.6936414,0.59044378)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4204"
+       spreadMethod="pad"
+       x1="89.666667"
+       y1="980.25"
+       x2="89.666667"
+       y2="1034.25"
+       gradientTransform="scale(1.5,0.66666667)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4206"
+       spreadMethod="pad"
+       x1="225.01156"
+       y1="55.120502"
+       x2="225.01156"
+       y2="115.83294"
+       gradientTransform="scale(1.5976957,0.62590141)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4208"
+       spreadMethod="pad"
+       x1="27.427124"
+       y1="875.32875"
+       x2="27.427124"
+       y2="932.82657"
+       gradientTransform="scale(1.5131007,0.66089455)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4210"
+       spreadMethod="pad"
+       x1="191.81572"
+       y1="154.44902"
+       x2="191.81572"
+       y2="223.09303"
+       gradientTransform="scale(1.8064213,0.55358072)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4212"
+       spreadMethod="pad"
+       x1="172.86044"
+       y1="275.45197"
+       x2="172.86044"
+       y2="349.42494"
+       gradientTransform="scale(1.9466571,0.51370117)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4214"
+       spreadMethod="pad"
+       x1="215.49374"
+       y1="326.73223"
+       x2="215.49374"
+       y2="389.59716"
+       gradientTransform="scale(1.6543404,0.60447052)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4216"
+       spreadMethod="pad"
+       x1="237.52056"
+       y1="383.36365"
+       x2="237.52056"
+       y2="441.51862"
+       gradientTransform="scale(1.5303938,0.65342658)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4218"
+       spreadMethod="pad"
+       x1="211.25945"
+       y1="505.92648"
+       x2="211.25945"
+       y2="569.69167"
+       gradientTransform="scale(1.6780314,0.5959364)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4220"
+       spreadMethod="pad"
+       x1="176.98769"
+       y1="700.9541"
+       x2="176.98769"
+       y2="773.63147"
+       gradientTransform="scale(1.9125623,0.52285877)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greyGradient"
+       id="linearGradient4222"
+       spreadMethod="pad"
+       x1="-0.5"
+       y1="-0.5"
+       x2="-0.5"
+       y2="18.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4224"
+       spreadMethod="pad"
+       x1="306.57299"
+       y1="552.66855"
+       x2="306.57299"
+       y2="625.41468"
+       gradientTransform="scale(2.0207259,0.49487166)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4226"
+       spreadMethod="pad"
+       x1="435"
+       y1="120.75"
+       x2="435"
+       y2="174.75"
+       gradientTransform="scale(1.5,0.66666667)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greyGradient"
+       id="linearGradient4228"
+       spreadMethod="pad"
+       x1="-0.5"
+       y1="-0.5"
+       x2="-0.5"
+       y2="18.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greyGradient"
+       id="linearGradient4230"
+       spreadMethod="pad"
+       x1="-0.5"
+       y1="-0.5"
+       x2="-0.5"
+       y2="18.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4232"
+       spreadMethod="pad"
+       x1="203.8346"
+       y1="719.9526"
+       x2="203.8346"
+       y2="785.48122"
+       gradientTransform="scale(1.7244374,0.57989929)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greyGradient"
+       id="linearGradient4234"
+       spreadMethod="pad"
+       x1="-0.5"
+       y1="-0.5"
+       x2="-0.5"
+       y2="18.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4236"
+       spreadMethod="pad"
+       x1="584.41806"
+       y1="181.04548"
+       x2="584.41806"
+       y2="264.43613"
+       gradientTransform="scale(2.1944907,0.4556866)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4238"
+       spreadMethod="pad"
+       x1="264.76158"
+       y1="897.89557"
+       x2="264.76158"
+       y2="959.53971"
+       gradientTransform="scale(1.6222142,0.6164414)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4240"
+       spreadMethod="pad"
+       x1="536.24324"
+       y1="1059.722"
+       x2="536.24324"
+       y2="1133.9514"
+       gradientTransform="scale(1.9534046,0.51192672)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4242"
+       spreadMethod="pad"
+       x1="270.97311"
+       y1="1444.4099"
+       x2="270.97311"
+       y2="1520.9083"
+       gradientTransform="scale(2.0131149,0.49674264)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4244"
+       spreadMethod="pad"
+       x1="417.63676"
+       y1="1326.5696"
+       x2="417.63676"
+       y2="1409.9603"
+       gradientTransform="scale(2.1944907,0.4556866)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4246"
+       spreadMethod="pad"
+       x1="373.42083"
+       y1="1574.8137"
+       x2="373.42083"
+       y2="1666.2468"
+       gradientTransform="scale(2.4061325,0.41560471)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4248"
+       spreadMethod="pad"
+       x1="394.58485"
+       y1="1615.6696"
+       x2="394.58485"
+       y2="1703.0653"
+       gradientTransform="scale(2.2998856,0.43480424)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4250"
+       spreadMethod="pad"
+       x1="365.1781"
+       y1="1828.5441"
+       x2="365.1781"
+       y2="1921.6247"
+       gradientTransform="scale(2.4494897,0.40824829)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4252"
+       spreadMethod="pad"
+       x1="405.95141"
+       y1="1792.6252"
+       x2="405.95141"
+       y2="1878.0419"
+       gradientTransform="scale(2.2478059,0.44487826)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4254"
+       spreadMethod="pad"
+       x1="379.88369"
+       y1="1994.5862"
+       x2="379.88369"
+       y2="2084.7638"
+       gradientTransform="scale(2.3730948,0.42139067)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4256"
+       spreadMethod="pad"
+       x1="448.1407"
+       y1="749.36231"
+       x2="448.1407"
+       y2="813.42478"
+       gradientTransform="scale(1.6858545,0.59317101)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4258"
+       spreadMethod="pad"
+       x1="791.98581"
+       y1="497.28953"
+       x2="791.98581"
+       y2="554.12262"
+       gradientTransform="scale(1.4956076,0.66862458)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4260"
+       spreadMethod="pad"
+       x1="725.85975"
+       y1="766.49621"
+       x2="725.85975"
+       y2="828.14035"
+       gradientTransform="scale(1.6222142,0.6164414)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4262"
+       spreadMethod="pad"
+       x1="745.9813"
+       y1="641.1518"
+       x2="745.9813"
+       y2="701.23507"
+       gradientTransform="scale(1.5811388,0.63245553)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#packageGradient"
+       id="linearGradient4264"
+       spreadMethod="pad"
+       x1="578.60923"
+       y1="680.26006"
+       x2="578.60923"
+       y2="738.41502"
+       gradientTransform="scale(1.5303938,0.65342658)"
+       gradientUnits="userSpaceOnUse" />
+    <defs
+       id="defs7">
+      <linearGradient
+         spreadMethod="pad"
+         y2="100%"
+         x2="0%"
+         y1="0%"
+         x1="0%"
+         id="greyGradient">
+        <stop
+           id="stop10"
+           stop-opacity="1"
+           stop-color="#FFFFFF"
+           offset="0%" />
+        <stop
+           id="stop12"
+           stop-opacity="1"
+           stop-color="#E5E5E5"
+           offset="100%" />
+      </linearGradient>
+      <linearGradient
+         spreadMethod="pad"
+         y2="100%"
+         x2="0%"
+         y1="0%"
+         x1="0%"
+         id="packageGradient">
+        <stop
+           id="stop15"
+           stop-opacity="1"
+           stop-color="#FFFFFF"
+           offset="0%" />
+        <stop
+           id="stop17"
+           stop-opacity="1"
+           stop-color="#EFE9DE"
+           offset="100%" />
+      </linearGradient>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1184"
+     inkscape:window-height="648"
+     id="namedview1215"
+     showgrid="false"
+     inkscape:zoom="0.72222222"
+     inkscape:cx="-7.1750976"
+     inkscape:cy="304.37931"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <desc
+     id="desc4">UML class diagram RecipeManager</desc>
+  <g
+     id="g19">
+    <ellipse
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       sodipodi:ry="10"
+       sodipodi:rx="10"
+       sodipodi:cy="598"
+       sodipodi:cx="12"
+       id="ellipse21"
+       ry="10"
+       rx="10"
+       cy="598"
+       cx="12" />
+  </g>
+  <g
+     id="g23">
+    <rect
+       style="fill:url(#linearGradient4198);stroke:#c2b79f;stroke-width:1"
+       id="rect25"
+       ry="10"
+       rx="10"
+       height="37"
+       width="112"
+       y="179"
+       x="121" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text27"
+       font-style="normal"
+       y="201"
+       x="177">Add recipe data</text>
+  </g>
+  <g
+     id="g29"
+     transform="translate(177,587)">
+    <g
+       id="g31"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <rect
+         style="fill:url(#linearGradient4200);stroke:#888888;stroke-width:1"
+         id="rect33"
+         ry="0"
+         rx="0"
+         height="18"
+         width="18"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="g35">
+    <rect
+       style="fill:url(#linearGradient4202);stroke:#c2b79f;stroke-width:1"
+       id="rect37"
+       ry="10"
+       rx="10"
+       height="37"
+       width="108"
+       y="580"
+       x="229" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text39"
+       font-style="normal"
+       y="602"
+       x="283">Search recipes</text>
+  </g>
+  <g
+     id="g41">
+    <rect
+       style="fill:url(#linearGradient4204);stroke:#c2b79f;stroke-width:1"
+       id="rect43"
+       ry="10"
+       rx="10"
+       height="35"
+       width="80"
+       y="654"
+       x="135" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text45"
+       font-style="normal"
+       y="676"
+       x="175">Exit</text>
+  </g>
+  <g
+     id="g47">
+    <rect
+       style="fill:url(#linearGradient4206);stroke:#c2b79f;stroke-width:1"
+       id="rect49"
+       ry="10"
+       rx="10"
+       height="37"
+       width="96"
+       y="35"
+       x="360" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text51"
+       font-style="normal"
+       y="57"
+       x="408">Name recipe</text>
+  </g>
+  <g
+     id="g53">
+    <rect
+       style="fill:url(#linearGradient4208);stroke:#c2b79f;stroke-width:1"
+       id="rect55"
+       ry="10"
+       rx="10"
+       height="37"
+       width="86"
+       y="579"
+       x="42" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text57"
+       font-style="normal"
+       y="601"
+       x="85">Main menu</text>
+  </g>
+  <g
+     id="g59">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect61"
+       ry="0"
+       rx="0"
+       height="63"
+       width="14"
+       y="186"
+       x="275" />
+  </g>
+  <g
+     id="g63">
+    <rect
+       style="fill:url(#linearGradient4210);stroke:#c2b79f;stroke-width:1"
+       id="rect65"
+       ry="10"
+       rx="10"
+       height="37"
+       width="123"
+       y="86"
+       x="347" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text67"
+       font-style="normal"
+       y="108"
+       x="409">Categorize recipe</text>
+  </g>
+  <g
+     id="g69">
+    <rect
+       style="fill:url(#linearGradient4212);stroke:#c2b79f;stroke-width:1"
+       id="rect71"
+       ry="10"
+       rx="10"
+       height="37"
+       width="143"
+       y="142"
+       x="337" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text73"
+       font-style="normal"
+       y="164"
+       x="409">Subcategorize recipe</text>
+  </g>
+  <g
+     id="g75">
+    <rect
+       style="fill:url(#linearGradient4214);stroke:#c2b79f;stroke-width:1"
+       id="rect77"
+       ry="10"
+       rx="10"
+       height="37"
+       width="103"
+       y="198"
+       x="357" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text79"
+       font-style="normal"
+       y="220"
+       x="409">Add prep time</text>
+  </g>
+  <g
+     id="g81">
+    <rect
+       style="fill:url(#linearGradient4216);stroke:#c2b79f;stroke-width:1"
+       id="rect83"
+       ry="10"
+       rx="10"
+       height="37"
+       width="88"
+       y="251"
+       x="364" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text85"
+       font-style="normal"
+       y="273"
+       x="408">Rate recipe</text>
+  </g>
+  <g
+     id="g87">
+    <rect
+       style="fill:url(#linearGradient4218);stroke:#c2b79f;stroke-width:1"
+       id="rect89"
+       ry="10"
+       rx="10"
+       height="37"
+       width="106"
+       y="302"
+       x="355" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text91"
+       font-style="normal"
+       y="324"
+       x="408">Add ingredient</text>
+  </g>
+  <g
+     id="g93">
+    <rect
+       style="fill:url(#linearGradient4220);stroke:#c2b79f;stroke-width:1"
+       id="rect95"
+       ry="10"
+       rx="10"
+       height="37"
+       width="138"
+       y="367"
+       x="339" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text97"
+       font-style="normal"
+       y="389"
+       x="408">Add instruction step</text>
+  </g>
+  <g
+     id="g99"
+     transform="translate(693,204)">
+    <g
+       id="g101"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <rect
+         style="fill:url(#linearGradient4222);stroke:#888888;stroke-width:1"
+         id="rect103"
+         ry="0"
+         rx="0"
+         height="18"
+         width="18"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="g105">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect107"
+       ry="0"
+       rx="0"
+       height="61"
+       width="15"
+       y="183"
+       x="552" />
+  </g>
+  <g
+     id="g109">
+    <rect
+       style="fill:url(#linearGradient4224);stroke:#c2b79f;stroke-width:1"
+       id="rect111"
+       ry="10"
+       rx="10"
+       height="35"
+       width="146"
+       y="274"
+       x="620" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text113"
+       font-style="normal"
+       y="296"
+       x="693">Add more recipe data</text>
+  </g>
+  <g
+     id="g115">
+    <rect
+       style="fill:url(#linearGradient4226);stroke:#c2b79f;stroke-width:1"
+       id="rect117"
+       ry="10"
+       rx="10"
+       height="35"
+       width="80"
+       y="81"
+       x="653" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text119"
+       font-style="normal"
+       y="103"
+       x="693">Submit</text>
+  </g>
+  <g
+     id="g121"
+     transform="translate(787,89)">
+    <g
+       id="g123"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <rect
+         style="fill:url(#linearGradient4228);stroke:#888888;stroke-width:1"
+         id="rect125"
+         ry="0"
+         rx="0"
+         height="18"
+         width="18"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="g127">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon129"
+       points="926,84 926,48 911,33 820,33 820,84 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text131"
+       y="38"
+       x="824">
+      <tspan
+         style="font-size:12px"
+         id="tspan133"
+         font-size="12"
+         y="50"
+         x="824">User has</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan135"
+         font-size="12"
+         y="62"
+         x="824">submitted a</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan137"
+         font-size="12"
+         y="74"
+         x="824">recipe name</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon139"
+       points="926,48 911,33 911,48 " />
+  </g>
+  <g
+     id="g141">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon143"
+       points="900,218 900,178 885,163 794,163 794,218 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text145"
+       y="168"
+       x="798">
+      <tspan
+         style="font-size:12px"
+         id="tspan147"
+         font-size="12"
+         y="180"
+         x="798">User has not</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan149"
+         font-size="12"
+         y="192"
+         x="798">submitted a</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan151"
+         font-size="12"
+         y="204"
+         x="798">recipe name</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon153"
+       points="900,178 885,163 885,178 " />
+  </g>
+  <g
+     id="g155"
+     transform="translate(962,89)">
+    <g
+       id="g157"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <rect
+         style="fill:url(#linearGradient4230);stroke:#888888;stroke-width:1"
+         id="rect159"
+         ry="0"
+         rx="0"
+         height="18"
+         width="18"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="g161">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon163"
+       points="1106,93 1106,42 1091,27 1000,27 1000,93 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text165"
+       y="32"
+       x="1004">
+      <tspan
+         style="font-size:12px"
+         id="tspan167"
+         font-size="12"
+         y="44"
+         x="1004">User has</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan169"
+         font-size="12"
+         y="56"
+         x="1004">submitted at</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan171"
+         font-size="12"
+         y="68"
+         x="1004">least one</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan173"
+         font-size="12"
+         y="80"
+         x="1004">instruction step</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon175"
+       points="1106,42 1091,27 1091,42 " />
+  </g>
+  <g
+     id="g177">
+    <rect
+       style="fill:url(#linearGradient4232);stroke:#c2b79f;stroke-width:1"
+       id="rect179"
+       ry="10"
+       rx="10"
+       height="37"
+       width="112"
+       y="418"
+       x="352" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text181"
+       font-style="normal"
+       y="440"
+       x="408">Return to menu</text>
+  </g>
+  <g
+     id="g183"
+     transform="translate(1132,90)">
+    <g
+       id="g185"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <rect
+         style="fill:url(#linearGradient4234);stroke:#888888;stroke-width:1"
+         id="rect187"
+         ry="0"
+         rx="0"
+         height="18"
+         width="18"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="g189">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon191"
+       points="1078,225 1078,176 1063,161 972,161 972,225 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text193"
+       y="166"
+       x="976">
+      <tspan
+         style="font-size:12px"
+         id="tspan195"
+         font-size="12"
+         y="178"
+         x="976">User has not</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan197"
+         font-size="12"
+         y="190"
+         x="976">submitted at</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan199"
+         font-size="12"
+         y="202"
+         x="976">least one</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan201"
+         font-size="12"
+         y="214"
+         x="976">instruction step</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon203"
+       points="1078,176 1063,161 1063,176 " />
+  </g>
+  <g
+     id="g205">
+    <rect
+       style="fill:url(#linearGradient4236);stroke:#c2b79f;stroke-width:1"
+       id="rect207"
+       ry="10"
+       rx="10"
+       height="37"
+       width="182"
+       y="83"
+       x="1283" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text209"
+       font-style="normal"
+       y="105"
+       x="1374">Add recipe data to database</text>
+  </g>
+  <g
+     id="g211">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon213"
+       points="1265,96 1265,47 1250,32 1159,32 1159,96 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text215"
+       y="37"
+       x="1163">
+      <tspan
+         style="font-size:12px"
+         id="tspan217"
+         font-size="12"
+         y="49"
+         x="1163">User has</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan219"
+         font-size="12"
+         y="61"
+         x="1163">submitted at</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan221"
+         font-size="12"
+         y="73"
+         x="1163">least one</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan223"
+         font-size="12"
+         y="85"
+         x="1163">ingredient</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon225"
+       points="1265,47 1250,32 1250,47 " />
+  </g>
+  <g
+     id="g227">
+    <polygon
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1"
+       id="polygon229"
+       points="1253,231 1253,182 1238,167 1147,167 1147,231 " />
+    <text
+       style="fill:#2d2d2d"
+       id="text231"
+       y="172"
+       x="1151">
+      <tspan
+         style="font-size:12px"
+         id="tspan233"
+         font-size="12"
+         y="184"
+         x="1151">User has not</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan235"
+         font-size="12"
+         y="196"
+         x="1151">submitted at</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan237"
+         font-size="12"
+         y="208"
+         x="1151">least one</tspan>
+      <tspan
+         style="font-size:12px"
+         id="tspan239"
+         font-size="12"
+         y="220"
+         x="1151">ingredient</tspan>
+    </text>
+    <polygon
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:1"
+       id="polygon241"
+       points="1253,182 1238,167 1238,182 " />
+  </g>
+  <g
+     id="g243">
+    <rect
+       style="fill:url(#linearGradient4238);stroke:#c2b79f;stroke-width:1"
+       id="rect245"
+       ry="10"
+       rx="10"
+       height="37"
+       width="99"
+       y="554"
+       x="430" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text247"
+       font-style="normal"
+       y="576"
+       x="480">Press Search</text>
+  </g>
+  <g
+     id="g249">
+    <rect
+       style="fill:url(#linearGradient4240);stroke:#c2b79f;stroke-width:1"
+       id="rect251"
+       ry="10"
+       rx="10"
+       height="37"
+       width="144"
+       y="543"
+       x="1048" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text253"
+       font-style="normal"
+       y="565"
+       x="1120">Return to main menu</text>
+  </g>
+  <g
+     id="g255">
+    <rect
+       style="fill:url(#linearGradient4242);stroke:#c2b79f;stroke-width:1"
+       id="rect257"
+       ry="10"
+       rx="10"
+       height="37"
+       width="153"
+       y="718"
+       x="546" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text259"
+       font-style="normal"
+       y="740"
+       x="623">Change search criteria</text>
+  </g>
+  <g
+     id="g261">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect263"
+       ry="0"
+       rx="0"
+       height="50"
+       width="10"
+       y="710"
+       x="409" />
+  </g>
+  <g
+     id="g265"
+     transform="translate(166,716)">
+    <ellipse
+       style="fill:#ffffff;stroke:#888888;stroke-width:1"
+       sodipodi:ry="9"
+       sodipodi:rx="9"
+       sodipodi:cy="9"
+       sodipodi:cx="9"
+       d="m 18,9 c 0,4.970563 -4.029437,9 -9,9 C 4.0294373,18 0,13.970563 0,9 0,4.0294373 4.0294373,0 9,0 c 4.970563,0 9,4.0294373 9,9 z"
+       id="ellipse267"
+       ry="9"
+       rx="9"
+       cy="9"
+       cx="9" />
+    <polyline
+       style="fill:none;stroke:#888888;stroke-width:1"
+       id="polyline269"
+       points="2, 2 16, 16" />
+    <polyline
+       style="fill:none;stroke:#888888;stroke-width:1"
+       id="polyline271"
+       points="16, 2 2, 16" />
+  </g>
+  <g
+     id="g273">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect275"
+       ry="0"
+       rx="0"
+       height="50"
+       width="10"
+       y="710"
+       x="728" />
+  </g>
+  <g
+     id="g277">
+    <rect
+       style="fill:url(#linearGradient4244);stroke:#c2b79f;stroke-width:1"
+       id="rect279"
+       ry="10"
+       rx="10"
+       height="37"
+       width="182"
+       y="605"
+       x="917" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text281"
+       font-style="normal"
+       y="627"
+       x="1008">Change recipe name critera</text>
+  </g>
+  <g
+     id="g283">
+    <rect
+       style="fill:url(#linearGradient4246);stroke:#c2b79f;stroke-width:1"
+       id="rect285"
+       ry="10"
+       rx="10"
+       height="37"
+       width="219"
+       y="655"
+       x="899" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text287"
+       font-style="normal"
+       y="677"
+       x="1009">Change recipe ingredient criteriaa</text>
+  </g>
+  <g
+     id="g289">
+    <rect
+       style="fill:url(#linearGradient4248);stroke:#c2b79f;stroke-width:1"
+       id="rect291"
+       ry="10"
+       rx="10"
+       height="37"
+       width="200"
+       y="703"
+       x="908" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text293"
+       font-style="normal"
+       y="725"
+       x="1008">Change recipe category critera</text>
+  </g>
+  <g
+     id="g295">
+    <rect
+       style="fill:url(#linearGradient4250);stroke:#c2b79f;stroke-width:1"
+       id="rect297"
+       ry="10"
+       rx="10"
+       height="37"
+       width="227"
+       y="747"
+       x="895" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text299"
+       font-style="normal"
+       y="769"
+       x="1009">Change recipe subcategory criterea</text>
+  </g>
+  <g
+     id="g301">
+    <rect
+       style="fill:url(#linearGradient4252);stroke:#c2b79f;stroke-width:1"
+       id="rect303"
+       ry="10"
+       rx="10"
+       height="37"
+       width="191"
+       y="798"
+       x="913" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text305"
+       font-style="normal"
+       y="820"
+       x="1009">Change recipe rating criterea</text>
+  </g>
+  <g
+     id="g307">
+    <rect
+       style="fill:url(#linearGradient4254);stroke:#c2b79f;stroke-width:1"
+       id="rect309"
+       ry="10"
+       rx="10"
+       height="37"
+       width="213"
+       y="841"
+       x="902" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text311"
+       font-style="normal"
+       y="863"
+       x="1009">Change recipe prep time criterea</text>
+  </g>
+  <g
+     id="g313">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect315"
+       ry="0"
+       rx="0"
+       height="50"
+       width="10"
+       y="710"
+       x="1281" />
+  </g>
+  <g
+     id="g317">
+    <rect
+       style="fill:url(#linearGradient4256);stroke:#c2b79f;stroke-width:1"
+       id="rect319"
+       ry="10"
+       rx="10"
+       height="37"
+       width="107"
+       y="445"
+       x="756" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text321"
+       font-style="normal"
+       y="467"
+       x="810">Select a recipe</text>
+  </g>
+  <g
+     id="g323">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect325"
+       ry="0"
+       rx="0"
+       height="50"
+       width="10"
+       y="547"
+       x="575" />
+  </g>
+  <g
+     id="g327">
+    <rect
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1"
+       id="rect329"
+       ry="0"
+       rx="0"
+       height="50"
+       width="10"
+       y="437"
+       x="1015" />
+  </g>
+  <g
+     id="g331">
+    <rect
+       style="fill:url(#linearGradient4258);stroke:#c2b79f;stroke-width:1"
+       id="rect333"
+       ry="10"
+       rx="10"
+       height="37"
+       width="84"
+       y="333"
+       x="1185" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text335"
+       font-style="normal"
+       y="355"
+       x="1227">Edit recipe</text>
+  </g>
+  <g
+     id="g337">
+    <rect
+       style="fill:url(#linearGradient4260);stroke:#c2b79f;stroke-width:1"
+       id="rect339"
+       ry="10"
+       rx="10"
+       height="37"
+       width="99"
+       y="473"
+       x="1178" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text341"
+       font-style="normal"
+       y="495"
+       x="1228">Delete recipe</text>
+  </g>
+  <g
+     id="g343">
+    <rect
+       style="fill:url(#linearGradient4262);stroke:#c2b79f;stroke-width:1"
+       id="rect345"
+       ry="10"
+       rx="10"
+       height="37"
+       width="94"
+       y="406"
+       x="1180" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text347"
+       font-style="normal"
+       y="428"
+       x="1227">Email recipe</text>
+  </g>
+  <g
+     id="g349">
+    <rect
+       style="fill:url(#linearGradient4264);stroke:#c2b79f;stroke-width:1"
+       id="rect351"
+       ry="10"
+       rx="10"
+       height="37"
+       width="88"
+       y="445"
+       x="886" />
+    <text
+       style="font-style:normal;text-anchor:middle;fill:#806221"
+       id="text353"
+       font-style="normal"
+       y="467"
+       x="930">View recipe</text>
+  </g>
+  <g
+     id="g355">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline357"
+       points="177,609 175,654" />
+    <g
+       id="g359"
+       transform="translate(175,654)">
+      <g
+         id="g361"
+         transform="matrix(-0.99862953,-0.05233596,0.05233596,-0.99862953,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline363"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g365">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline367"
+       points="177,587 177,217" />
+    <g
+       id="g369"
+       transform="translate(177,217)">
+      <g
+         id="g371">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline373"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g375">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline377"
+       points="188,598 229,598" />
+    <g
+       id="g379"
+       transform="translate(229,598)">
+      <g
+         id="g381"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline383"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g385">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline387"
+       points="128,598 166,598" />
+    <g
+       id="g389"
+       transform="translate(166,598)">
+      <g
+         id="g391"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline393"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g395">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline397"
+       points="22,598 42,598" />
+    <g
+       id="g399"
+       transform="translate(42,598)">
+      <g
+         id="g401"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline403"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g405">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline407"
+       points="283,186 285,55" />
+  </g>
+  <g
+     id="g409">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline411"
+       points="289,192 312,107" />
+  </g>
+  <g
+     id="g413">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline415"
+       points="289,224 385,302" />
+    <g
+       id="g417"
+       transform="translate(385,302)">
+      <g
+         id="g419"
+         transform="matrix(-0.62932039,0.77714596,-0.77714596,-0.62932039,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline421"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g423">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline425"
+       points="288,250 314,380" />
+  </g>
+  <g
+     id="g427">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline429"
+       points="456,54 559,54" />
+  </g>
+  <g
+     id="g431">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline433"
+       points="471,105 517,105" />
+  </g>
+  <g
+     id="g435">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline437"
+       points="463,180 552,211" />
+    <g
+       id="g439"
+       transform="translate(552,211)">
+      <g
+         id="g441"
+         transform="matrix(-0.32556815,0.94551858,-0.94551858,-0.32556815,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline443"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g455">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline457"
+       points="461,216 552,214" />
+    <g
+       id="g459"
+       transform="translate(552,214)">
+      <g
+         id="g461"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline463"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g465">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline467"
+       points="177,217 177,217" />
+    <g
+       id="g469"
+       transform="translate(177,217)">
+      <g
+         id="g471">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline473"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g475">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline477"
+       points="233,209 275,217" />
+    <g
+       id="g479"
+       transform="translate(275,217)">
+      <g
+         id="g481"
+         transform="matrix(-0.190809,0.98162718,-0.98162718,-0.190809,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline483"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g485">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline487"
+       points="568,214 682,215" />
+    <g
+       id="g489"
+       transform="translate(682,215)">
+      <g
+         id="g491"
+         transform="matrix(-0.01745241,0.9998477,-0.9998477,-0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline493"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g495">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline497"
+       points="693,226 693,274" />
+    <g
+       id="g499"
+       transform="translate(693,274)">
+      <g
+         id="g501"
+         transform="scale(-1,-1)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline503"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g505">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline507"
+       points="693,204 693,117" />
+    <g
+       id="g509"
+       transform="translate(693,117)">
+      <g
+         id="g511">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline513"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g515">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline517"
+       points="693,310 693,469" />
+  </g>
+  <g
+     id="g519">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline521"
+       points="693,469 250,466" />
+  </g>
+  <g
+     id="g523">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline525"
+       points="250,466 182,217" />
+    <g
+       id="g527"
+       transform="translate(182,217)">
+      <g
+         id="g529"
+         transform="matrix(0.96592583,-0.25881905,0.25881905,0.96592583,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline531"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g533">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline535"
+       points="733,99 776,100" />
+    <g
+       id="g537"
+       transform="translate(776,100)">
+      <g
+         id="g539"
+         transform="matrix(-0.01745241,0.9998477,-0.9998477,-0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline541"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g543">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline545"
+       points="787,111 786,245" />
+  </g>
+  <g
+     id="g547">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline549"
+       points="786,245 729,274" />
+    <g
+       id="g551"
+       transform="translate(729,274)">
+      <g
+         id="g553"
+         transform="matrix(-0.4539905,-0.89100652,0.89100652,-0.4539905,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline555"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g557">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline559"
+       points="798,100 951,100" />
+    <g
+       id="g561"
+       transform="translate(951,100)">
+      <g
+         id="g563"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline565"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g567">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline569"
+       points="283,250 286,435" />
+  </g>
+  <g
+     id="g571">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline573"
+       points="408,456 407,532" />
+  </g>
+  <g
+     id="g575">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline577"
+       points="973,100 1121,101" />
+    <g
+       id="g579"
+       transform="translate(1121,101)">
+      <g
+         id="g581"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline583"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g585">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline587"
+       points="962,111 962,244" />
+  </g>
+  <g
+     id="g589">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline591"
+       points="962,244 766,279" />
+    <g
+       id="g593"
+       transform="translate(766,279)">
+      <g
+         id="g595"
+         transform="matrix(-0.17364818,-0.98480775,0.98480775,-0.17364818,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline597"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g599">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline601"
+       points="1143,101 1283,102" />
+    <g
+       id="g603"
+       transform="translate(1283,102)">
+      <g
+         id="g605"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline607"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g609">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline611"
+       points="1132,112 1133,294" />
+  </g>
+  <g
+     id="g613">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline615"
+       points="1133,294 766,292" />
+    <g
+       id="g617"
+       transform="translate(766,292)">
+      <g
+         id="g619"
+         transform="matrix(0,-1,1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline621"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g623">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline625"
+       points="1374,83 1376,2" />
+  </g>
+  <g
+     id="g627">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline629"
+       points="83,2 85,579" />
+    <g
+       id="g631"
+       transform="translate(85,579)">
+      <g
+         id="g633"
+         transform="scale(-1,-1)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline635"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g637">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline639"
+       points="1376,2 456,3" />
+  </g>
+  <g
+     id="g641">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline643"
+       points="289,218 357,217" />
+    <g
+       id="g645"
+       transform="translate(357,217)">
+      <g
+         id="g647"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline649"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g651">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline653"
+       points="289,215 367,180" />
+    <g
+       id="g655"
+       transform="translate(367,180)">
+      <g
+         id="g657"
+         transform="matrix(0.40673664,0.91354546,-0.91354546,0.40673664,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline659"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g661">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline663"
+       points="456,3 83,2" />
+  </g>
+  <g
+     id="g665">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline667"
+       points="452,254 552,217" />
+    <g
+       id="g669"
+       transform="translate(552,217)">
+      <g
+         id="g671"
+         transform="matrix(0.34202014,0.93969262,-0.93969262,0.34202014,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline673"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g675">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline677"
+       points="435,302 552,220" />
+    <g
+       id="g679"
+       transform="translate(552,220)">
+      <g
+         id="g681"
+         transform="matrix(0.57357644,0.81915204,-0.81915204,0.57357644,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline683"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g685">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline687"
+       points="477,385 514,385" />
+  </g>
+  <g
+     id="g689">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline691"
+       points="419,723 472,592" />
+    <g
+       id="g693"
+       transform="translate(472,592)">
+      <g
+         id="g695"
+         transform="matrix(0.92718385,0.37460659,-0.37460659,0.92718385,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline697"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g699">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline701"
+       points="419,733 694,633" />
+  </g>
+  <g
+     id="g703">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline705"
+       points="419,735 546,736" />
+    <g
+       id="g707"
+       transform="translate(546,736)">
+      <g
+         id="g709"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline711"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g713">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline715"
+       points="301,618 409,730" />
+    <g
+       id="g717"
+       transform="translate(409,730)">
+      <g
+         id="g719"
+         transform="matrix(-0.7193398,0.69465837,-0.69465837,-0.7193398,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline721"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g723">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline725"
+       points="1192,563 1396,564" />
+  </g>
+  <g
+     id="g727">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline729"
+       points="85,931 85,617" />
+    <g
+       id="g731"
+       transform="translate(85,617)">
+      <g
+         id="g733">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline735"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g737">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline739"
+       points="1394,941 85,931" />
+  </g>
+  <g
+     id="g741">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline743"
+       points="1396,564 1394,941" />
+  </g>
+  <g
+     id="g745">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline747"
+       points="175,690 175,716" />
+    <g
+       id="g749"
+       transform="translate(175,716)">
+      <g
+         id="g751"
+         transform="scale(-1,-1)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline753"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g755">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline757"
+       points="738,730 806,657" />
+  </g>
+  <g
+     id="g759">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline761"
+       points="738,732 802,690" />
+  </g>
+  <g
+     id="g763">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline765"
+       points="738,734 796,717" />
+  </g>
+  <g
+     id="g767">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline769"
+       points="738,736 895,753" />
+    <g
+       id="g771"
+       transform="translate(895,753)">
+      <g
+         id="g773"
+         transform="matrix(-0.10452846,0.9945219,-0.9945219,-0.10452846,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline775"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g777">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline779"
+       points="738,739 794,787" />
+  </g>
+  <g
+     id="g781">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline783"
+       points="738,742 799,830" />
+  </g>
+  <g
+     id="g785">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline787"
+       points="700,736 728,735" />
+    <g
+       id="g789"
+       transform="translate(728,735)">
+      <g
+         id="g791"
+         transform="matrix(0.0348995,0.99939083,-0.99939083,0.0348995,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline793"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g795">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline797"
+       points="1099,628 1212,633" />
+  </g>
+  <g
+     id="g799">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline801"
+       points="1119,684 1214,692" />
+  </g>
+  <g
+     id="g803">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline805"
+       points="1108,727 1281,735" />
+    <g
+       id="g807"
+       transform="translate(1281,735)">
+      <g
+         id="g809"
+         transform="matrix(-0.05233596,0.99862953,-0.99862953,-0.05233596,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline811"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g813">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline815"
+       points="1123,767 1219,767" />
+  </g>
+  <g
+     id="g817">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline819"
+       points="1105,815 1212,812" />
+  </g>
+  <g
+     id="g821">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline823"
+       points="1116,859 1211,858" />
+  </g>
+  <g
+     id="g825">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline827"
+       points="1291,735 1376,737" />
+  </g>
+  <g
+     id="g829">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline831"
+       points="281,897 283,618" />
+    <g
+       id="g833"
+       transform="translate(283,618)">
+      <g
+         id="g835">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline837"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g839">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline841"
+       points="1375,906 281,897" />
+  </g>
+  <g
+     id="g843">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline845"
+       points="1376,737 1375,906" />
+  </g>
+  <g
+     id="g847">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline849"
+       points="530,573 575,572" />
+    <g
+       id="g851"
+       transform="translate(575,572)">
+      <g
+         id="g853"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline855"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g857">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline859"
+       points="585,570 770,483" />
+    <g
+       id="g861"
+       transform="translate(770,483)">
+      <g
+         id="g863"
+         transform="matrix(0.42261826,0.90630779,-0.90630779,0.42261826,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline865"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g867">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline869"
+       points="585,572 1048,563" />
+    <g
+       id="g871"
+       transform="translate(1048,563)">
+      <g
+         id="g873"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline875"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g877">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline879"
+       points="585,591 618,718" />
+    <g
+       id="g881"
+       transform="translate(618,718)">
+      <g
+         id="g883"
+         transform="matrix(-0.96592583,0.25881905,-0.25881905,-0.96592583,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline885"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g887">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline889"
+       points="1025,459 1191,371" />
+    <g
+       id="g891"
+       transform="translate(1191,371)">
+      <g
+         id="g893"
+         transform="matrix(0.46947156,0.88294759,-0.88294759,0.46947156,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline895"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g897">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline899"
+       points="1025,463 1178,485" />
+    <g
+       id="g901"
+       transform="translate(1178,485)">
+      <g
+         id="g903"
+         transform="matrix(-0.1391731,0.99026807,-0.99026807,-0.1391731,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline905"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g907">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline909"
+       points="1025,461 1180,433" />
+    <g
+       id="g911"
+       transform="translate(1180,433)">
+      <g
+         id="g913"
+         transform="matrix(0.17364818,0.98480775,-0.98480775,0.17364818,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline915"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g917">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline919"
+       points="1185,352 722,350" />
+  </g>
+  <g
+     id="g921">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline923"
+       points="722,350 721,488" />
+  </g>
+  <g
+     id="g929"
+     transform="matrix(0.82798612,0,0,0.82851094,30.146698,37.127382)">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline931"
+       points="207,543 179,217" />
+    <g
+       id="g933"
+       transform="translate(179,217)">
+      <g
+         id="g935"
+         transform="matrix(0.9961947,-0.08715574,0.08715574,0.9961947,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline937"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g939">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline941"
+       points="286,435 352,436" />
+    <g
+       id="g943"
+       transform="translate(352,436)">
+      <g
+         id="g945"
+         transform="matrix(-0.01745241,0.9998477,-0.9998477,-0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline947"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g949">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline951"
+       points="314,380 339,382" />
+    <g
+       id="g953"
+       transform="translate(339,382)">
+      <g
+         id="g955"
+         transform="matrix(-0.08715574,0.9961947,-0.9961947,-0.08715574,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline957"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g959">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline961"
+       points="289,221 364,252" />
+    <g
+       id="g963"
+       transform="translate(364,252)">
+      <g
+         id="g965"
+         transform="matrix(-0.37460659,0.92718385,-0.92718385,-0.37460659,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline967"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g969">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline971"
+       points="285,55 360,54" />
+    <g
+       id="g973"
+       transform="translate(360,54)">
+      <g
+         id="g975"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline977"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g979">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline981"
+       points="312,107 347,106" />
+    <g
+       id="g983"
+       transform="translate(347,106)">
+      <g
+         id="g985"
+         transform="matrix(0.0348995,0.99939083,-0.99939083,0.0348995,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline987"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g989">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline991"
+       points="559,54 560,183" />
+    <g
+       id="g993"
+       transform="translate(560,183)">
+      <g
+         id="g995"
+         transform="scale(-1,-1)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline997"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g999">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1001"
+       points="517,105 552,194" />
+    <g
+       id="g1003"
+       transform="translate(552,194)">
+      <g
+         id="g1005"
+         transform="matrix(-0.93358043,0.35836795,-0.35836795,-0.93358043,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1007"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1009">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1011"
+       points="514,385 552,244" />
+    <g
+       id="g1013"
+       transform="translate(552,244)">
+      <g
+         id="g1015"
+         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1017"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1019">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1021"
+       points="1025,467 1101,543" />
+    <g
+       id="g1023"
+       transform="translate(1101,543)">
+      <g
+         id="g1025"
+         transform="matrix(-0.70710678,0.70710678,-0.70710678,-0.70710678,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1027"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1029">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1031"
+       points="1199,511 1149,543" />
+    <g
+       id="g1033"
+       transform="translate(1149,543)">
+      <g
+         id="g1035"
+         transform="matrix(-0.54463904,-0.83867057,0.83867057,-0.54463904,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1037"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1039">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1041"
+       points="1227,444 1227,444" />
+    <g
+       id="g1043"
+       transform="translate(1227,444)">
+      <g
+         id="g1045">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1047"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1049">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1051"
+       points="864,464 886,464" />
+    <g
+       id="g1053"
+       transform="translate(886,464)">
+      <g
+         id="g1055"
+         transform="matrix(0,1,-1,0,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1057"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1059">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1061"
+       points="974,463 1015,462" />
+    <g
+       id="g1063"
+       transform="translate(1015,462)">
+      <g
+         id="g1065"
+         transform="matrix(0.01745241,0.9998477,-0.9998477,0.01745241,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1067"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1069">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1071"
+       points="1274,425 1314,425" />
+  </g>
+  <g
+     id="g1073">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1075"
+       points="931,312 930,445" />
+    <g
+       id="g1077"
+       transform="translate(930,445)">
+      <g
+         id="g1079"
+         transform="scale(-1,-1)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1081"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1083">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1085"
+       points="1315,313 931,312" />
+  </g>
+  <g
+     id="g1087">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1089"
+       points="1314,425 1315,313" />
+  </g>
+  <g
+     id="g1091">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1093"
+       points="806,657 917,639" />
+    <g
+       id="g1095"
+       transform="translate(917,639)">
+      <g
+         id="g1097"
+         transform="matrix(0.15643447,0.98768834,-0.98768834,0.15643447,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1099"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1101">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1103"
+       points="802,690 899,683" />
+    <g
+       id="g1105"
+       transform="translate(899,683)">
+      <g
+         id="g1107"
+         transform="matrix(0.06975647,0.99756405,-0.99756405,0.06975647,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1109"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1111">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1113"
+       points="796,717 908,720" />
+    <g
+       id="g1115"
+       transform="translate(908,720)">
+      <g
+         id="g1117"
+         transform="matrix(-0.0348995,0.99939083,-0.99939083,-0.0348995,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1119"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1121">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1123"
+       points="799,830 902,845" />
+    <g
+       id="g1125"
+       transform="translate(902,845)">
+      <g
+         id="g1127"
+         transform="matrix(-0.1391731,0.99026807,-0.99026807,-0.1391731,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1129"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1131">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1133"
+       points="794,787 913,804" />
+    <g
+       id="g1135"
+       transform="translate(913,804)">
+      <g
+         id="g1137"
+         transform="matrix(-0.1391731,0.99026807,-0.99026807,-0.1391731,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1139"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1141">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1143"
+       points="1211,858 1281,743" />
+    <g
+       id="g1145"
+       transform="translate(1281,743)">
+      <g
+         id="g1147"
+         transform="matrix(0.8571673,0.51503807,-0.51503807,0.8571673,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1149"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1151">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1153"
+       points="1212,812 1281,740" />
+    <g
+       id="g1155"
+       transform="translate(1281,740)">
+      <g
+         id="g1157"
+         transform="matrix(0.7193398,0.69465837,-0.69465837,0.7193398,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1159"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1161">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1163"
+       points="1219,767 1281,737" />
+    <g
+       id="g1165"
+       transform="translate(1281,737)">
+      <g
+         id="g1167"
+         transform="matrix(0.43837115,0.89879405,-0.89879405,0.43837115,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1169"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1171">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1173"
+       points="1214,692 1281,732" />
+    <g
+       id="g1175"
+       transform="translate(1281,732)">
+      <g
+         id="g1177"
+         transform="matrix(-0.51503807,0.8571673,-0.8571673,-0.51503807,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1179"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1181">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1183"
+       points="1212,633 1281,728" />
+    <g
+       id="g1185"
+       transform="translate(1281,728)">
+      <g
+         id="g1187"
+         transform="matrix(-0.80901699,0.58778525,-0.58778525,-0.80901699,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1189"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1191">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1193"
+       points="694,633 1048,574" />
+    <g
+       id="g1195"
+       transform="translate(1048,574)">
+      <g
+         id="g1197"
+         transform="matrix(0.15643447,0.98768834,-0.98768834,0.15643447,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1199"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1201">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1203"
+       points="407,532 134,532" />
+  </g>
+  <g
+     id="g1205">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="polyline1207"
+       points="134,532 99,579" />
+    <g
+       id="g1209"
+       transform="translate(99,579)">
+      <g
+         id="g1211"
+         transform="matrix(-0.79863551,-0.60181502,0.60181502,-0.79863551,0,0)">
+        <polyline
+           style="fill:none;stroke:#000000;stroke-width:1"
+           id="polyline1213"
+           points="-4,8 0,0 4,8" />
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 720.69231,487.76923 -519.92308,-2.07692 0,0"
+     id="path4196"
+     inkscape:connector-curvature="0" />
+</svg>

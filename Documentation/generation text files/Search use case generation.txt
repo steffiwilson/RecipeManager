@@ -1,0 +1,14 @@
+// Cool Use Case Diagram
+[Customer]-(Search for recipes)
+(Search for recipes)>(View all)
+(Search for recipes)>(Filter to recipes matching specified criteria)
+(Filter to recipes matching specified criteria)>(Name filter)
+(Filter to recipes matching specified criteria)>(Ingredient filter)
+(Filter to recipes matching specified criteria)>(Instruction step text filter)
+(Filter to recipes matching specified criteria)>(Category filter)
+(Filter to recipes matching specified criteria)>(Subcategory filter)
+(Filter to recipes matching specified criteria)>(Preptime filter)
+(Filter to recipes matching specified criteria)>(Rating filter)
+
+
+yuml.me
