@@ -48,7 +48,7 @@ public class RecipeManager extends javax.swing.JFrame{
         }
         //</editor-fold>
         
-        
+       /* 
         
         //Creating recipes
         //initialization for a test recipe
@@ -69,7 +69,7 @@ public class RecipeManager extends javax.swing.JFrame{
                                              "A never-before-seen second step",
                                              "Whadda ya know, the third step is new too",
                                              "Oh golly gee there are four steps now?"};
-        
+        */
          /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -1267,149 +1267,15 @@ public class RecipeManager extends javax.swing.JFrame{
                      return "none";
     }  
    
-       public static boolean emailRecipe(int recipeId) throws IOException {
-        String[] recipe = selectSingleRecipe(recipeId);
-        String[][] instructions = listInstructions(recipeId);
-        String[][] ingredients = listIngredients(recipeId);
-        
-        String emailBody = recipe[0] + "\n\nIngredients:\n";
-        for (int i = 0; i < ingredients.length; i++) {
-            emailBody = emailBody + ingredients[i][1] 
-                            + " " + ingredients[i][2] 
-                            + " " + ingredients[i][0] 
-                            + "\n";
-        }
-        //clear up all the decimal points for readability
-        emailBody = emailBody.replaceAll(".0", "");
-        emailBody = emailBody.replaceAll(".25", "1%2F4"); //%2F = forward slash
-        emailBody = emailBody.replaceAll(".5", "1%2F2");
-        emailBody = emailBody.replaceAll(".75", "3%2F4");
-        emailBody = emailBody.replaceAll(".33", "1%2F3");
-        emailBody = emailBody.replaceAll(".66", "2%2F3");
-        emailBody = emailBody.replaceAll("0", "");
-        
-        emailBody = emailBody + "\nInstructions:\n";
-        for (int i = 0; i < instructions.length; i++){
-            emailBody = emailBody + instructions[i][0] + ". " + instructions[i][1] + "\n";
-        }
-        emailBody = emailBody + "\nPrep Time: " + recipe[1] + "\nCategory: " 
-                              + recipe[2] + "\nSubCategory: " + recipe[3]
-                              + "\nRating: " + recipe[4];
-       
-        //mailto can't have spaces, so we replace spaces with %20
-        emailBody = emailBody.replaceAll(" ", "%20");
-        //replace the friendly java newline character with the friendly ASCII newline
-        emailBody = emailBody.replaceAll("\n", "%0D");
-       
 
-        String uri = "mailto:?body=" + emailBody;
-        System.out.println(uri);
-        URI email = URI.create(uri);
-        Desktop desktop = Desktop.getDesktop();
-        desktop.mail(email);
-        return true;
-    }
     
     // <editor-fold defaultstate="collapsed" desc="Database Query Functions"> 
-   
-   public static String[] selectSingleRecipe(int recipeId) {
-        String[][] results;
-        String sqlSelectRecipe = "SELECT r.RecipeName, r.PrepTime, CategoryName, SubCategoryName, r.Rating from Recipes r "
-                                + "INNER JOIN CodeCategory on r.category = categoryid "
-                                + "INNER JOIN CodeSubCategory on r.subcategory = subcategoryid "
-                                + "WHERE r.recipeId = '" + recipeId + "'";
-        results = execSQLMultiColumnSelect(sqlSelectRecipe);
-        String[] singleArrayResult = new String[5];
-        for (int i=0; i<5; i++) {
-            singleArrayResult[i] = results[0][i];
-        }
-        return singleArrayResult;
-    }
-    
-    public static String[][] listAllRecipes() {
-        String[][] Recipes = new String[][]{};
-        String sqlListRecipes = "  use RecipeDB\n" +
-        "  SELECT RecipeId, RecipeName, PrepTime, CategoryName, SubCategoryName, Rating\n" +
-        "  FROM Recipes\n" +
-        "  LEFT JOIN CodeCategory on Category = CategoryID\n" +
-        "  LEFT JOIN CodeSubCategory on SubCategory = SubCategoryID";
-        Recipes =  execSQLMultiColumnSelect(sqlListRecipes);
-        
-        return Recipes;
-    }
-    
-    public static String[][] listIngredients(int recipeId) {
-        String[][] Ingredients = new String[][]{};
-        String sqlListIngredients = "SELECT Ingredient, Quantity, Measurement, AltIngredient FROM Ingredients WHERE RecipeId = '" + recipeId + "'";
-        Ingredients = execSQLMultiColumnSelect(sqlListIngredients);
-        
-        //System.out.println(Arrays.deepToString(Ingredients));
-        
-        return Ingredients;
-    }
- 
-    public static String[][] listInstructions(int recipeId) {
-        String[][] Instructions = new String[][]{};
-        String sqlListInstructions = "SELECT StepNumber, Step FROM Instructions WHERE RecipeId = '" + recipeId + "'";
-        Instructions = execSQLMultiColumnSelect(sqlListInstructions);
-        return Instructions;
-    }
-
-    public static String[][] listComments(int recipeId) {
-        String[][] Comments = new String[][]{};
-        String sqlListComments = "SELECT Comment, Date FROM Comments WHERE RecipeId = '" + recipeId + "'";
-        Comments = execSQLMultiColumnSelect(sqlListComments);
-        return Comments;
-    }
-
-    public static String[][] listCategories() {
-        String[][] Categories = new String[][]{};
-        String sqlListCategories = "SELECT CategoryId, CategoryName FROM CodeCategory";
-        Categories = execSQLMultiColumnSelect(sqlListCategories);
-        return Categories;
-    }
- 
-    public static String[][] listSubCategories() {
-        String[][] subCategories = new String[][]{};
-        String sqlListSubCategories = "SELECT SubCategoryId, SubCategoryName FROM CodeSubCategory";
-        subCategories = execSQLMultiColumnSelect(sqlListSubCategories);
-        return subCategories;
-    }
-    
-    public static int getCategoryId(String name) {
-        int id;
-        String[] results;
-        String sqlSelectCategoryId = "SELECT CategoryId from CodeCategory where CategoryName = '" + name + "'";
-        results = execSQLSingleColumnSelect(sqlSelectCategoryId);
-        id = Integer.parseInt(results[0]);
-        return id;
-    }
-    
-     public static int getSubCategoryId(String name) {
-        int id;
-        String[] results;
-        String sqlSelectCategoryId = "SELECT SubCategoryId from CodeSubCategory where SubCategoryName = '" + name + "'";
-        results = execSQLSingleColumnSelect(sqlSelectCategoryId);
-        id = Integer.parseInt(results[0]);
-        return id;
-    }
-
     public static boolean addCategory(String category) {
         String sqlAddCategory = "INSERT INTO CodeCategory(CategoryName) VALUES( '" + category + "')";
         execSQLUpdateOrDelete(sqlAddCategory);
         return true;
     }
     
-    public static boolean addSubCategory(String subCategory) {
-        String sqlAddCategory = "INSERT INTO CodeCategory(CategoryName) VALUES( '" + subCategory + "')";
-        execSQLUpdateOrDelete(sqlAddCategory);
-        return true;
-    }
-    public static boolean deleteComments(int recipeId) {
-        String sqlDeleteComments = "DELETE FROM Comments WHERE RecipeId = '" + recipeId + "'";
-        execSQLUpdateOrDelete(sqlDeleteComments);
-        return true;
-    }
     public static boolean addComment(int recipeId, String comment) {
         Date now = new Date();
         //magic! don't ask. And DON'T change the capitalization D:
@@ -1421,77 +1287,6 @@ public class RecipeManager extends javax.swing.JFrame{
         return true;
     }
     
-    public static boolean editInstructions(int recipeId, String[] recipeInstructions) {
-        deleteInstructions(recipeId);
-        insertInstructions(recipeId, recipeInstructions);
-        return true;
-    }
-    
-    public static boolean editIngredients(int recipeId, String[][] recipeIngredients) {
-        deleteIngredients(recipeId);
-        insertIngredients(recipeId, recipeIngredients);
-        return true;
-    }
-    
-    public static boolean editRecipe(Recipe editedRecipe) {
-        String sqlUpdateRecipe = "UPDATE Recipes SET RecipeName = '" + editedRecipe.recipeName 
-                         + "', PrepTime = '" + editedRecipe.preptime 
-                         + "', Category = '" + editedRecipe.category 
-                         + "', SubCategory = '" + editedRecipe.subcategory
-                         + "', Rating = '" + editedRecipe.rating
-                         + "' where RecipeId = '" + editedRecipe.RecipeID +"'";
-        execSQLUpdateOrDelete(sqlUpdateRecipe);
-        return true;
-    }
-    
-    public static boolean insertInstructions(int recipeId, String[] recipeInstructions) {
-        int numberOfInstructions = recipeInstructions.length;
-        String sqlInsertRecipeInstructions = "";
-        int stepNumber = 1;
-        for (int i=0; i < numberOfInstructions; i++) {
-            sqlInsertRecipeInstructions = "INSERT INTO RecipeDB.dbo.Instructions(RecipeId, "
-                + "StepNumber, Step) VALUES ('" + recipeId + "', '"
-                + stepNumber + "','" + recipeInstructions[i] + "')";
-            execSQLUpdateOrDelete(sqlInsertRecipeInstructions);
-            stepNumber++;
-        }
-        return true;
-    }
-    
-    public static boolean insertIngredients(int recipeId, String[][] recipeIngredients) {
-        int numberOfIngredients = recipeIngredients.length;
-        String sqlInsertRecipeIngredients= "";
-        for (int i=0; i < numberOfIngredients; i++ ) {
-             sqlInsertRecipeIngredients = "INSERT INTO RecipeDB.dbo.Ingredients(RecipeID, Ingredient, "
-                + "Quantity, Measurement, AltIngredient) VALUES ('" + recipeId + "', '"
-                + recipeIngredients[i][0] + "', '" + recipeIngredients[i][1] + "', '"
-                + recipeIngredients[i][2] + "', '" + recipeIngredients[i][3] + "')";
-            execSQLUpdateOrDelete(sqlInsertRecipeIngredients);
-        }
-        return true;
-    }
-
-    public static boolean deleteInstructions(int recipeId) {
-        String sqlDeleteInstructions = "DELETE FROM Instructions where RecipeId = '" + recipeId + "'";
-        execSQLUpdateOrDelete(sqlDeleteInstructions);
-        return true;
-    }
-    
-    public static boolean deleteIngredients(int recipeId) {
-        String sqlDeleteIngredients = "DELETE FROM Ingredients where RecipeId = '" + recipeId + "'";
-        execSQLUpdateOrDelete(sqlDeleteIngredients);
-        return true;
-    }
-    
-    public static boolean totallyDeleteRecipe(int recipeId) {
-        deleteInstructions(recipeId);
-        deleteIngredients(recipeId);
-        deleteComments(recipeId);
-        String sqlDeleteRecipe = "DELETE FROM Recipes where RecipeId = '" + recipeId + "'";
-        execSQLUpdateOrDelete(sqlDeleteRecipe);
-
-        return true;
-    }
     public static boolean addRecipe(Recipe newRecipe) {
         //build insert statement for the recipe
        // System.out.println(newRecipe.RecipeID);
@@ -1552,6 +1347,188 @@ public class RecipeManager extends javax.swing.JFrame{
         return true;
     }
     
+    public static boolean addSubCategory(String subCategory) {
+        String sqlAddCategory = "INSERT INTO CodeCategory(CategoryName) VALUES( '" + subCategory + "')";
+        execSQLUpdateOrDelete(sqlAddCategory);
+        return true;
+    }
+    
+    public static boolean deleteComments(int recipeId) {
+        String sqlDeleteComments = "DELETE FROM Comments WHERE RecipeId = '" + recipeId + "'";
+        execSQLUpdateOrDelete(sqlDeleteComments);
+        return true;
+    }
+        
+    public static boolean deleteIngredients(int recipeId) {
+        String sqlDeleteIngredients = "DELETE FROM Ingredients where RecipeId = '" + recipeId + "'";
+        execSQLUpdateOrDelete(sqlDeleteIngredients);
+        return true;
+    }
+        
+    public static boolean deleteInstructions(int recipeId) {
+        String sqlDeleteInstructions = "DELETE FROM Instructions where RecipeId = '" + recipeId + "'";
+        execSQLUpdateOrDelete(sqlDeleteInstructions);
+        return true;
+    }
+
+    public static boolean editIngredients(int recipeId, String[][] recipeIngredients) {
+        deleteIngredients(recipeId);
+        insertIngredients(recipeId, recipeIngredients);
+        return true;
+    }
+    
+    public static boolean editInstructions(int recipeId, String[] recipeInstructions) {
+        deleteInstructions(recipeId);
+        insertInstructions(recipeId, recipeInstructions);
+        return true;
+    }
+
+    public static boolean editRecipe(Recipe editedRecipe) {
+        String sqlUpdateRecipe = "UPDATE Recipes SET RecipeName = '" + editedRecipe.recipeName 
+                         + "', PrepTime = '" + editedRecipe.preptime 
+                         + "', Category = '" + editedRecipe.category 
+                         + "', SubCategory = '" + editedRecipe.subcategory
+                         + "', Rating = '" + editedRecipe.rating
+                         + "' where RecipeId = '" + editedRecipe.RecipeID +"'";
+        execSQLUpdateOrDelete(sqlUpdateRecipe);
+        return true;
+    }
+    
+    public static boolean emailRecipe(int recipeId) throws IOException {
+        String[] recipe = selectSingleRecipe(recipeId);
+        String[][] instructions = listInstructions(recipeId);
+        String[][] ingredients = listIngredients(recipeId);
+        
+        String emailBody = recipe[0] + "\n\nIngredients:\n";
+        for (int i = 0; i < ingredients.length; i++) {
+            emailBody = emailBody + ingredients[i][1] 
+                            + " " + ingredients[i][2] 
+                            + " " + ingredients[i][0] 
+                            + "\n";
+        }
+        //clear up all the decimal points for readability
+        emailBody = emailBody.replaceAll(".0", "");
+        emailBody = emailBody.replaceAll(".25", "1%2F4"); //%2F = forward slash
+        emailBody = emailBody.replaceAll(".5", "1%2F2");
+        emailBody = emailBody.replaceAll(".75", "3%2F4");
+        emailBody = emailBody.replaceAll(".33", "1%2F3");
+        emailBody = emailBody.replaceAll(".66", "2%2F3");
+        emailBody = emailBody.replaceAll("0", "");
+        
+        emailBody = emailBody + "\nInstructions:\n";
+        for (int i = 0; i < instructions.length; i++){
+            emailBody = emailBody + instructions[i][0] + ". " + instructions[i][1] + "\n";
+        }
+        emailBody = emailBody + "\nPrep Time: " + recipe[1] + "\nCategory: " 
+                              + recipe[2] + "\nSubCategory: " + recipe[3]
+                              + "\nRating: " + recipe[4];
+       
+        //mailto can't have spaces, so we replace spaces with %20
+        emailBody = emailBody.replaceAll(" ", "%20");
+        //replace the friendly java newline character with the friendly ASCII newline
+        emailBody = emailBody.replaceAll("\n", "%0D");
+       
+
+        String uri = "mailto:?body=" + emailBody;
+        System.out.println(uri);
+        URI email = URI.create(uri);
+        Desktop desktop = Desktop.getDesktop();
+        desktop.mail(email);
+        return true;
+    }
+    
+    public static int getCategoryId(String name) {
+        int id;
+        String[] results;
+        String sqlSelectCategoryId = "SELECT CategoryId from CodeCategory where CategoryName = '" + name + "'";
+        results = execSQLSingleColumnSelect(sqlSelectCategoryId);
+        id = Integer.parseInt(results[0]);
+        return id;
+    }
+    
+    public static int getSubCategoryId(String name) {
+        int id;
+        String[] results;
+        String sqlSelectCategoryId = "SELECT SubCategoryId from CodeSubCategory where SubCategoryName = '" + name + "'";
+        results = execSQLSingleColumnSelect(sqlSelectCategoryId);
+        id = Integer.parseInt(results[0]);
+        return id;
+    }
+     
+    public static boolean insertInstructions(int recipeId, String[] recipeInstructions) {
+        int numberOfInstructions = recipeInstructions.length;
+        String sqlInsertRecipeInstructions = "";
+        int stepNumber = 1;
+        for (int i=0; i < numberOfInstructions; i++) {
+            sqlInsertRecipeInstructions = "INSERT INTO RecipeDB.dbo.Instructions(RecipeId, "
+                + "StepNumber, Step) VALUES ('" + recipeId + "', '"
+                + stepNumber + "','" + recipeInstructions[i] + "')";
+            execSQLUpdateOrDelete(sqlInsertRecipeInstructions);
+            stepNumber++;
+        }
+        return true;
+    }
+    
+    public static boolean insertIngredients(int recipeId, String[][] recipeIngredients) {
+        int numberOfIngredients = recipeIngredients.length;
+        String sqlInsertRecipeIngredients= "";
+        for (int i=0; i < numberOfIngredients; i++ ) {
+             sqlInsertRecipeIngredients = "INSERT INTO RecipeDB.dbo.Ingredients(RecipeID, Ingredient, "
+                + "Quantity, Measurement, AltIngredient) VALUES ('" + recipeId + "', '"
+                + recipeIngredients[i][0] + "', '" + recipeIngredients[i][1] + "', '"
+                + recipeIngredients[i][2] + "', '" + recipeIngredients[i][3] + "')";
+            execSQLUpdateOrDelete(sqlInsertRecipeIngredients);
+        }
+        return true;
+    }
+    
+    public static String[][] listAllRecipes() {
+        String[][] Recipes = new String[][]{};
+        String sqlListRecipes = "  use RecipeDB\n" +
+        "  SELECT RecipeId, RecipeName, PrepTime, CategoryName, SubCategoryName, Rating\n" +
+        "  FROM Recipes\n" +
+        "  LEFT JOIN CodeCategory on Category = CategoryID\n" +
+        "  LEFT JOIN CodeSubCategory on SubCategory = SubCategoryID";
+        Recipes =  execSQLMultiColumnSelect(sqlListRecipes);
+        
+        return Recipes;
+    }
+
+    public static String[][] listCategories() {
+        String[][] Categories = new String[][]{};
+        String sqlListCategories = "SELECT CategoryId, CategoryName FROM CodeCategory";
+        Categories = execSQLMultiColumnSelect(sqlListCategories);
+        return Categories;
+    }
+ 
+    public static String[][] listComments(int recipeId) {
+        String[][] Comments = new String[][]{};
+        String sqlListComments = "SELECT Comment, Date FROM Comments WHERE RecipeId = '" + recipeId + "'";
+        Comments = execSQLMultiColumnSelect(sqlListComments);
+        return Comments;
+    }
+    
+    public static String[][] listIngredients(int recipeId) {
+        String[][] Ingredients = new String[][]{};
+        String sqlListIngredients = "SELECT Ingredient, Quantity, Measurement, AltIngredient FROM Ingredients WHERE RecipeId = '" + recipeId + "'";
+        Ingredients = execSQLMultiColumnSelect(sqlListIngredients);    
+        return Ingredients;
+    }
+   
+    public static String[][] listInstructions(int recipeId) {
+        String[][] Instructions = new String[][]{};
+        String sqlListInstructions = "SELECT StepNumber, Step FROM Instructions WHERE RecipeId = '" + recipeId + "'";
+        Instructions = execSQLMultiColumnSelect(sqlListInstructions);
+        return Instructions;
+    }  
+    
+    public static String[][] listSubCategories() {
+        String[][] subCategories = new String[][]{};
+        String sqlListSubCategories = "SELECT SubCategoryId, SubCategoryName FROM CodeSubCategory";
+        subCategories = execSQLMultiColumnSelect(sqlListSubCategories);
+        return subCategories;
+    }
+    
     public static String[][] search(String[] searchParameters) {
         //{name, preptime, category, subcategory, rating, ingredient, instruction}
         String[][] result = new String[][]{};
@@ -1578,6 +1555,33 @@ public class RecipeManager extends javax.swing.JFrame{
        
         return result;           
     }
+    
+    public static String[] selectSingleRecipe(int recipeId) {
+        String[][] results;
+        String sqlSelectRecipe = "SELECT r.RecipeName, r.PrepTime, CategoryName, SubCategoryName, r.Rating from Recipes r "
+                                + "INNER JOIN CodeCategory on r.category = categoryid "
+                                + "INNER JOIN CodeSubCategory on r.subcategory = subcategoryid "
+                                + "WHERE r.recipeId = '" + recipeId + "'";
+        results = execSQLMultiColumnSelect(sqlSelectRecipe);
+        String[] singleArrayResult = new String[5];
+        for (int i=0; i<5; i++) {
+            singleArrayResult[i] = results[0][i];
+        }
+        return singleArrayResult;
+    }
+
+    public static boolean totallyDeleteRecipe(int recipeId) {
+        deleteInstructions(recipeId);
+        deleteIngredients(recipeId);
+        deleteComments(recipeId);
+        String sqlDeleteRecipe = "DELETE FROM Recipes where RecipeId = '" + recipeId + "'";
+        execSQLUpdateOrDelete(sqlDeleteRecipe);
+
+        return true;
+    }
+
+    
+
     // </editor-fold> 
     
    // <editor-fold defaultstate="collapsed" desc="SQL EXECUTION FUNCTIONS">
@@ -1606,7 +1610,7 @@ public class RecipeManager extends javax.swing.JFrame{
             }
         }
         catch (Exception e){
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error executing the SQL SingleColumnSelect: " + e.getMessage());
             System.exit(0); 
         }
         //can't return a resultset because the connection closes (and the 
@@ -1655,7 +1659,7 @@ public class RecipeManager extends javax.swing.JFrame{
             //end of code from teh interwebs
         }
         catch (Exception e){
-            System.out.println("Error executing the SQL: " + e.getMessage());
+            System.out.println("Error executing the SQL MultiColumnSelect: " + e.getMessage());
             System.exit(0); 
         }
         return result;
@@ -1673,7 +1677,7 @@ public class RecipeManager extends javax.swing.JFrame{
                 result = stmt.executeUpdate(sqlStatement);
             }
         catch (Exception e){
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error executing the SQL UpdateOrDelete: " + e.getMessage());
             System.exit(0); 
         }
         return result;
