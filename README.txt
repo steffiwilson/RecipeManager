@@ -1,8 +1,8 @@
 The "Recipe Manager" was a group project that I worked on in Spring 2014 for my Software Development class. 
 
 My group for this project consisted of two students. I was the backend designer/coder and my partner did the 
-front-end coding. I did the database and object design, figured out how to use SQL with Java, and wrote all 
-of the functions described in the Available Methods document. My partner did the rest of the coding. 
+front-end and UI coding. I did the database and object design, figured out how to use SQL with Java, and wrote all 
+of the functions described in the Available Methods document. 
 
 An overview of what is contained in the repo: 
 
